@@ -51,8 +51,4 @@ class Map:
         print(self.layout[self.playerPos[1]][self.playerPos[0]])
 
 
-hello = Map()
-hello.move("right")
-hello.deleteTile()
-hello.displayMap()
 
